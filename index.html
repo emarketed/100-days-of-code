@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Test Code</title>
+</head>
+<style>
+  :root {
+
+    /* add code below */
+
+    /* add code above */
+  }
+
+  body {
+    background-image: url("https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png");
+  }
+
+  .penguin {
+    --penguin-skin: black;
+    --penguin-beak: orange;
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 5%;
+    width: 300px;
+    height: 300px;
+    transform: skewY(10deg);
+  }
+
+  .right-cheek {
+    top: 15%;
+    left: 35%;
+    background: var(--penguin-belly, white);
+    width: 60%;
+    height: 70%;
+    border-radius: 70% 70% 60% 60%;
+  }
+
+  .left-cheek {
+    top: 15%;
+    left: 5%;
+    background: var(--penguin-belly, white);
+    width: 60%;
+    height: 70%;
+    border-radius: 70% 70% 60% 60%;
+  }
+
+  .belly {
+    top: 60%;
+    left: 2.5%;
+    background: var(--penguin-belly, white);
+    width: 95%;
+    height: 100%;
+    border-radius: 120% 120% 100% 100%;
+  }
+
+  .penguin-top {
+    top: 10%;
+    left: 25%;
+    background: var(--penguin-skin, gray);
+    width: 50%;
+    height: 45%;
+    border-radius: 70% 70% 60% 60%;
+  }
+
+  .penguin-bottom {
+    top: 40%;
+    left: 23.5%;
+    background: var(--penguin-skin, gray);
+    width: 53%;
+    height: 45%;
+    border-radius: 70% 70% 100% 100%;
+  }
+
+  .right-hand {
+    top: 0%;
+    left: -5%;
+    background: var(--penguin-skin, gray);
+    width: 30%;
+    height: 60%;
+    border-radius: 30% 30% 120% 30%;
+    transform: rotate(45deg);
+    z-index: -1;
+  }
+
+  .left-hand {
+    top: 0%;
+    left: 75%;
+    background: var(--penguin-skin, gray);
+    width: 30%;
+    height: 60%;
+    border-radius: 30% 30% 30% 120%;
+    transform: rotate(-45deg);
+    z-index: -1;
+  }
+
+  .right-feet {
+    top: 85%;
+    left: 60%;
+    background: white;
+    width: 15%;
+    height: 30%;
+    border-radius: 50% 50% 50% 50%;
+    transform: rotate(-80deg);
+    z-index: -2222;
+  }
+
+  .left-feet {
+    top: 85%;
+    left: 25%;
+    background: white;
+    width: 15%;
+    height: 30%;
+    border-radius: 50% 50% 50% 50%;
+    transform: rotate(80deg);
+    z-index: -2222;
+  }
+
+  .right-eye {
+    top: 45%;
+    left: 60%;
+    background: black;
+    width: 15%;
+    height: 17%;
+    border-radius: 50%;
+  }
+
+  .left-eye {
+    top: 45%;
+    left: 25%;
+    background: black;
+    width: 15%;
+    height: 17%;
+    border-radius: 50%;
+  }
+
+  .sparkle {
+    top: 25%;
+    left: 15%;
+    background: white;
+    width: 35%;
+    height: 35%;
+    border-radius: 50%;
+  }
+
+  .blush-right {
+    top: 65%;
+    left: 15%;
+    background: pink;
+    width: 15%;
+    height: 10%;
+    border-radius: 50%;
+  }
+
+  .blush-left {
+    top: 65%;
+    left: 70%;
+    background: pink;
+    width: 15%;
+    height: 10%;
+    border-radius: 50%;
+  }
+
+  .beak-top {
+    top: 60%;
+    left: 40%;
+    background: var(--penguin-beak, orange);
+    width: 20%;
+    height: 10%;
+    border-radius: 50%;
+  }
+
+  .beak-bottom {
+    top: 65%;
+    left: 42%;
+    background: var(--penguin-beak, orange);
+    width: 16%;
+    height: 10%;
+    border-radius: 50%;
+  }
+
+  .penguin * {
+    position: absolute;
+  }
+  h1 {
+      font-size: 80px;
+      font-weight: 200;
+      font-family: 'Courier New', Courier, monospace;
+      text-align: center;
+      color: blue;
+      background-color: springgreen;
+      text-transform: uppercase;
+      padding: 10px;
+      transform: skewY(10deg);
+
+      
+
+  }
+  p {
+      font-size: 16px;
+      line-height: 25px;
+      font-family: monospace;
+      text-align:left;
+      color:red;
+      width: 400px;
+      transform: skewY(10deg);
+
+    
+  }
+  a {
+      color:lawngreen;
+  }
+  a:hover {
+  color:lightseagreen;
+}
+  .fullCard {
+      
+      border: 1px solid #ccc;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+      opacity: 0.7;
+      
+</style>
+<body>
+    <br>
+    <h1>My Penguin</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tincidunt est sed mattis dictum. Nam faucibus eleifend purus at euismod. Sed risus est, tempus vel sollicitudin at, ultricies vel eros. Sed ut lectus ut ante accumsan molestie. Nunc at ante in nisl ornare egestas. Vivamus id varius tellus. Fusce eleifend sapien nec felis vehicula, in dignissim mauris finibus. Vestibulum ut metus ut sapien pulvinar vulputate. Pellentesque auctor turpis turpis, sed sollicitudin massa venenatis et. Morbi aliquet viverra elementum. Duis aliquet, enim eget placerat tempor, tortor est lacinia metus, nec sodales eros lectus vel neque. Duis in massa augue. Vestibulum auctor risus justo, in venenatis neque dictum et. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In vestibulum lorem in sagittis eleifend. Quisque sodales, metus a maximus feugiat, tellus urna feugiat erat, non tempus ligula sapien vel nisi.
+
+</p>
+    <hr>
+<div class="penguin fullCard">
+  <div class="penguin-bottom">
+    <div class="right-hand"></div>
+    <div class="left-hand"></div>
+    <div class="right-feet"></div>
+    <div class="left-feet"></div>
+  </div>
+  <div class="penguin-top">
+    <div class="right-cheek"></div>
+    <div class="left-cheek"></div>
+    <div class="belly"></div>
+    <div class="right-eye">
+      <div class="sparkle"></div>
+    </div>
+    <div class="left-eye">
+      <div class="sparkle"></div>
+    </div>
+    <div class="blush-right"></div>
+    <div class="blush-left"></div>
+    <div class="beak-top"></div>
+    <div class="beak-bottom"></div>
+  </div>
+</div>
+<br>
+<br>
+<hr>
+<p><em>If you'd like to <s>learn more</s> about my penguin <a href="#" title="click here">click here</a>.</em> </p>
+</body
+</html>
